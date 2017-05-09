@@ -14,9 +14,9 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Sy
 https://docs.fedoraproject.org/en-US/Fedora/15/html/Deployment_Guide/ch-Services_and_Daemons.html
 
 
-Output sample:
+**Output sample:**
 
-<code>
+```
 [fedora@static-jslave-f25 ~]$ sudo systemctl status jslave.service
 ● jslave.service - static jenkins slave daemon
    Loaded: loaded (/usr/lib/systemd/system/jslave.service; enabled; vendor preset: disabled)
@@ -37,4 +37,4 @@ May 09 14:26:58 static-jslave-f25.localdomain bash[10765]: May 09, 2017 2:26:58 
 May 09 14:26:58 static-jslave-f25.localdomain bash[10765]: INFO: Handshaking
 May 09 14:26:58 static-jslave-f25.localdomain bash[10765]: May 09, 2017 2:26:58 PM hudson.remoting.jnlp.Main$CuiListener status
 May 09 14:26:58 static-jslave-f25.localdomain bash[10765]: INFO: Connected
-</code>
+```
