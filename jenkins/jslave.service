@@ -1,0 +1,10 @@
+[Unit]
+Description = static jenkins slave daemon
+
+[Service]
+WorkingDirectory = /home/fedora/
+ExecStart = /bin/bash jslave.sh
+
+[Install]
+WantedBy = multi-user.target
+
